@@ -81,8 +81,7 @@ function buildCharts(sample) {
       x: values.slice(0,10).reverse(),
       y: yticks,
       text: labels.slice(0,10).reverse(),
-      type: 'bar',
-      orientation: 'h'      
+      type: 'bar',      
     ];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
